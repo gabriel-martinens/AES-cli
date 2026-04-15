@@ -12,8 +12,11 @@ Projeto simples em Python para estudar criptografia AES usando PyCryptodome.
 ---
 
 ## Como usar
-
+Execute o arquivo com os seguintes argumentos
+```bash
+python AES.py SEU_ARQUIVO SUA_CHAVE
+```
 ### Rodar o script:
 
 ```bash
-python AES.py ARQUIVO CHAVE
+python AES.py 7.txt "YELLOW SUBMARINE"
