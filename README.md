@@ -16,7 +16,7 @@ Execute o arquivo com os seguintes argumentos
 ```bash
 python AES.py SEU_ARQUIVO SUA_CHAVE
 ```
-### Rodar o script:
+### Exemplo:
 
 ```bash
 python AES.py 7.txt "YELLOW SUBMARINE"
