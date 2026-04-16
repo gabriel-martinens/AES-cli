@@ -1,5 +1,5 @@
 # AES-cli
-Projeto simples em Python para estudar criptografia AES usando PyCryptodome.
+criptografador e descriptografador de cifra AES-ECB na biblioteca pycryptodome
 
 ---
 
@@ -14,9 +14,10 @@ Projeto simples em Python para estudar criptografia AES usando PyCryptodome.
 ## Como usar
 Execute o arquivo com os seguintes argumentos
 ```bash
-python AES.py SEU_ARQUIVO SUA_CHAVE
+python AES.py MODO SEU_ARQUIVO SUA_CHAVE
 ```
+utilize o modo "dec" para descriptografar e o modo "enc" para encriptar
 ### Exemplo:
 
 ```bash
-python AES.py 7.txt "YELLOW SUBMARINE"
+python AES.py dec 7.txt "YELLOW SUBMARINE"
